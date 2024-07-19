@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.pokemon-wrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pokiemon-card{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.pokiemon-card:hover{
+    box-shadow: 0px 0px 14px 4px rgba(222, 44, 245, 0.989);
+}
+
+.pokiemon-card > h2{
+    text-align: center;
+}
+
